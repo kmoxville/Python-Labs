@@ -1,7 +1,7 @@
 #!/bin/bash
-git checkout -b dev
+git checkout dev
 git commit -a -m 'Commit changes to branch'
 git push
-git checkout -b prd
+git checkout prd
 git merge dev
 
